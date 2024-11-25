@@ -1,3 +1,5 @@
-# JavaScript1
+# JavaScript
+
 Omar Perez Arce
-Desafio latam1 Module3 JavaScript
+
+Desafio latam Module3 JavaScript
