@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-Desafio Latam 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Contenedor principal -->
+    <main>
+        <!-- Sección de producto -->
+        <section class="producto">
+            <div class="imagen-contenedor"></div>
+            <header>
+                <h3>Laptop Lenovo</h3>
+            </header>
+            <article>
+                <!-- Mostrar precio inicial -->
+                <p>Precio base: $<span class="precio-base"></span></p>
+            </article>
+            <article>
+                <!-- Control de cantidad -->
+                <p>
+                    Cantidad:
+                    <span class="contador">0</span>
+                    <boton_mas class="boton" id="btn_mas">+</boton_mas>
+                    <boton_menos class="boton" id="btn_menos">-</boton_menos>
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Sección de total -->
+    <footer class="seccion-total">
+        <p>Total a pagar: $<span class="pago-total">0</span></p>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
